@@ -17,6 +17,7 @@ public class _Integer {
          * Integer有缓存机制：默认缓存-128到127之间的值，
          * 我们在比较两个Integer对象的值时，无论是怎么声明的，都一定要使用equals去比较，不能用==
          * 答案：https://zhuanlan.zhihu.com/p/27562748
+         *
          */
         Integer i1 = 100;
         Integer i2 = 100;
