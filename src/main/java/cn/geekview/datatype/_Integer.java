@@ -20,12 +20,17 @@ public class _Integer {
          */
         Integer i1 = 100;
         Integer i2 = 100;
+        int i = i1;
+        System.out.println(i1==i2);//true
 
         Integer i3 = 300;
         Integer i4 = 300;
-
-        System.out.println(i1==i2);//true
         System.out.println(i3==i4);//false
         System.out.println(i3.equals(i4));//true
+
+        Integer i5 = new Integer(100);
+        Integer i6 = new Integer(100);
+        System.out.println(i5==i6);//false
+        System.out.println(i5.equals(i6));//true
     }
 }
